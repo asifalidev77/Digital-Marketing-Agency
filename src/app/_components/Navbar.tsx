@@ -12,6 +12,13 @@ export default function Navbar() {
           />
       </div>
       <div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Contact Us</li>
+        </ul>
       </div>
       <div>
       </div>
