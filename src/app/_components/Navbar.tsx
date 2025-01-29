@@ -8,22 +8,22 @@ import { CgMenuGridO } from "react-icons/cg";
 export default function Navbar() {
     return (
       <>     <section className="max-w-[1300px] mx-auto w-full  flex justify-between items-center py-4 px-4">
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-20">
       <div >
           <Image
           src={logo}
           alt="Company Logo"
-          width={100}
-          height={100}
+          width={150}
+          height={150}
           />
       </div>
       <div>
-        <ul className="text-white">
-            <li className="inline-block">Home</li>
-            <li className="inline-block">About Us</li>
-            <li className="inline-block">Services</li>
-            <li className="inline-block">Portfolio</li>
-            <li className="inline-block">Contact Us</li>
+        <ul className="  flex gap-x-5 text-[16px] font-semibold">
+            <li className="inline-block text-[#BFF747]">Home</li>
+            <li className="inline-block text-white hover:text-[#BFF747]">About Us</li>
+            <li className="inline-block text-white hover:text-[#BFF747]">Services</li>
+            <li className="inline-block text-white hover:text-[#BFF747]">Portfolio</li>
+            <li className="inline-block text-white hover:text-[#BFF747]">Contact Us</li>
         </ul>
       </div>
       </div>
