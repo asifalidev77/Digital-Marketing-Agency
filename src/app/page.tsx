@@ -6,6 +6,8 @@ import Mission from "./_components/Mission";
 import CEO from "./_components/CEO";
 import Hiring from "./_components/Hiring";
 import TDC from "./_components/TDC";
+import StartNow from "./_components/StartNow";
+import Footer from "./_components/Footer";
 export default function Home() {
   return (
     <>
@@ -17,7 +19,8 @@ export default function Home() {
     <CEO/>
     <Hiring/>
     <Story/>
-    
+    <StartNow/>
+    <Footer/>
       </>
   );
 }
