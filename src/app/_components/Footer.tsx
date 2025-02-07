@@ -2,6 +2,10 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+
 export default function Footer() {
     return (
       <>
@@ -11,17 +15,30 @@ export default function Footer() {
           <p className="text-[18px] text-[#25373FB2] font-[400] leading-[31.86px] py-[10px]">We will bring your idea into its digital creation the way you want it to be.</p>
           <div className="flex gap-x-3">
           <IoLogoFacebook 
-          className="inline-block text-white bg-[#2B59FF] p-[15px] rounded-[50%] w-[25px] h-[25px] hover:text-[#2B59FF] hover:bg-black "/>
+          className="inline-block text-white bg-[#2B59FF] p-[15px] rounded-[50%] w-12 h-12 hover:text-[#2B59FF] hover:bg-black"/>
           <FaTwitter 
-          className="inline-block"/>
+          className="inline-block text-white bg-[#2B59FF] p-[15px] rounded-[50%] w-12 h-12 hover:text-[#2B59FF] hover:bg-black"/>
           <FaInstagram 
-          className="inline-block"/>
+          className="inline-block text-white bg-[#2B59FF] p-[15px] rounded-[50%] w-12 h-12 hover:text-[#2B59FF] hover:bg-black"/>
           <FaLinkedinIn 
-          className="inline-block"/>
+          className="inline-block text-white bg-[#2B59FF] p-[15px] rounded-[50%] w-12 h-12 hover:text-[#2B59FF] hover:bg-black"/>
 </div>
         </div>
         <div className="w-[100%] md:w-[25%]">
           <h4 className="font-semibold text-[16px] text-[#262729]">Contact Details</h4>
+          <div>
+            <div> <h4 className="text-[14px] text-[#262729]"><FaLocationDot className="text-[#2B59FF] inline-block font-extrabold w-[14px] h-[19px] mr-[5px]" /> Address:</h4></div>
+            <div className="ml-[20px]">392 F Block Phase 1, <br /> Johar Town Lahore</div>
+          </div>
+          <div>
+            <div> <h4 className="text-[14px] text-[#262729]"><FaPhoneAlt  className="text-[#2B59FF] inline-block font-extrabold w-[14px] h-[19px] mr-[5px]" /> Phone:</h4></div>
+            <div className="ml-[20px]"> +92 305 7374904</div>
+          </div>
+          <div>
+            <div> <h4 className="text-[14px] text-[#262729]"><IoIosMail
+            className="text-[#2B59FF] inline-block font-extrabold w-[14px] h-[19px] mr-[5px]"/> Email:</h4></div>
+            <div className="ml-[20px]">asifali010122@gmail.com</div>
+          </div>
         </div>
         <div className="w-[100%] md:w-[25%]">
           <h4 className="font-semibold text-[16px] text-[#262729] mb-[15px]">Company</h4>
