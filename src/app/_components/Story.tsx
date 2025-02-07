@@ -3,7 +3,7 @@ import Button from "../_components/Button";
 export default function Story() {
     return (
       <>
-<section className="w-[100%] h-auto lg:h-[60vh]   px-[30px] md:px-[50px] xl:px-[55px] 2xl:px-[102.86px] flex flex-col-reverse lg:flex-row  justify-between align-middle items-center my-[40px] md:my-[60px] lg:my-[80px] relative gap-5"> 
+<section className="w-[100%] h-auto lg:h-[60vh]   px-[30px] md:px-[50px] xl:px-[55px] 2xl:px-[102.86px] flex flex-col lg:flex-row  justify-between align-middle items-center mb-[20px] md:mb-[30px] lg:mb-[40px] relative gap-5"> 
     <div className="w-[100%] lg:w-[50%] ">
         <img src="/Our-Story.png" alt="about-us-image"
         className="w-[100%] h-[100%]lg:w-[514px] lg:h-[534px]  rounded-[25px] object-contain" />
