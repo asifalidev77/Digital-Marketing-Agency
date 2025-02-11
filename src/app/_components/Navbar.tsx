@@ -11,12 +11,14 @@ const Navbar : React.FC = () => {
       <>
       <section className=" w-full h-[10vh] px-[30px] md:px-[50px] xl:px-[55px] 2xl:px-[102.86px] flex justify-between align-middle items-center">
         <div className="flex items-center gap-x-20">
-          <button
-          className="lg:hidden text-gray-700 focus:outline-none"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
-        </button>
+          <div>
+            <Image
+            src={logo}
+            alt="Company Logo"
+            width={47.62}
+            height={47.62}
+            />
+          </div>
 
           <div className="hidden lg:flex ">
             <ul className="flex gap-x-5">
